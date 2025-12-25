@@ -1,0 +1,14 @@
+# virtual environments
+ai_env/
+rf_env/
+venv/
+
+# python cache
+__pycache__/
+*.pyc
+
+# editor settings
+.vscode/
+
+#large data files
+*.mp4
