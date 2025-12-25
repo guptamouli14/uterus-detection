@@ -11,6 +11,11 @@ Accurate identification of organs during minimally invasive surgery can assist s
 3. Annotated uterus regions using Roboflow.
 4. Trained an object detection model using Roboflow (RF-DETR Small).
 5. Evaluated the model on unseen frames and videos within Roboflow.
+   
+## Dataset
+- Frames extracted from laparoscopic surgery videos
+- Annotated manually using Roboflow
+- Single class: uterus
 
 ## Model Details
 - Platform: **Roboflow**
@@ -27,14 +32,13 @@ High precision ensures very few false positives, which is important in surgical 
 
 ## Repository Structure
 UTERUS-DETECTION/
-├── extract_frames.py
-├── frames/ # extracted frames
-├── frames2/ # additional extracted frames
-├── requirements.txt
-├── README.md
-└── .gitignore
-└── results/
-    └── roboflow_inference_screenshots/
+extract_frames.py
+frames/ # extracted frames
+frames2/ # additional extracted frames
+requirements.txt
+README.md
+.gitignore
+results/
 
 ## Results
 ![Training Metrics](results/training_metrics-1.png)
